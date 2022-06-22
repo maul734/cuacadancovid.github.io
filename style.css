@@ -1,0 +1,81 @@
+.temp {
+    border-radius: 10px;
+    background-color: #012443; 
+    color: rgb(211, 211, 211); 
+    display: inline-block; 
+    padding: 5px 8px;
+}
+
+body {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh; 
+    overflow-y: hidden;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #012443;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8px;
+}
+.footer h6 {
+    font-weight: 200;
+}
+
+.footer span {
+    color: crimson;
+}
+
+/* css card */
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
